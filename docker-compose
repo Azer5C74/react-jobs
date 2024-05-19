@@ -1,0 +1,10 @@
+version: "3.8"  # Specify the Docker Compose version
+
+services:
+  server:
+    build: .  # Build the image from the current directory (where the Dockerfile resides)
+    ports:
+      - 3000:3000  # Replace with desired port mapping (e.g., 5000:5000)
+    volumes:
+      - .:/app  # Mount the current directory as /app within the container
+    command: ["npm", "run", "server"]  # Execute the `npm run server` command
