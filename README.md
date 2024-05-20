@@ -1,3 +1,5 @@
+![image](https://github.com/Azer5C74/react-jobs/assets/31437731/a8ae92da-c50b-4358-9a0c-5a02ce686374)
+
 ## Usage
 
 This project uses JSON-Server for a mock backend.
